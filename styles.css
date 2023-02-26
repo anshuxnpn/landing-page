@@ -22,7 +22,7 @@ ul{
   font-size: 18px;
 }
 
-.first-half{
+#first-half{
   background-color: #1F2937;
   padding-left: 50px;
   padding-right: 50px;
@@ -33,8 +33,9 @@ ul{
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
- /* color: #F9FAF8;
-  font-size: 24px;*/
+  color: #F9FAF8;
+  font-size: 24px;
+  background-color: #1F2937;
 }
 
 .header, .hero{
@@ -74,6 +75,7 @@ button{
   font-size: 15px;
   padding: 10px 25px;
   border-radius: 8px;
+  border: none;
 
 }
 
@@ -82,7 +84,7 @@ button{
   height: 400px;
 }
 
-.second-half{
+#second-half{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -105,6 +107,11 @@ button{
   border-radius: 8px;
 }
 
+.tiny-text{
+  color: #1F2937;
+  font-style: oblique;
+}
+
 .quote{
   display: flex;
   justify-content: center;
@@ -118,3 +125,35 @@ button{
   width: 800px;
   color: #1F2937;
 }
+
+.sign-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 80px 50px;
+  padding: 5px 10px;
+  border-radius: 8px; 
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+.button2{
+  border-color: #E5E7EB;
+  border-style: solid;
+  margin: 30px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer{
+  background-color: #1F2937;
+  text-align: center;
+  padding: 8px 10px;
+}
+
+.footer > p{
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
